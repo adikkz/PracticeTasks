@@ -1,0 +1,44 @@
+.body1{
+    background-color: rgb(101, 135, 189); 
+}
+.rf{
+    font-size: 2.5rem;
+    justify-content: center;
+    display: flex;
+}
+.regForm{
+    background-color: white;
+    margin-top: 10px;
+    width: 600px;
+    height: 800px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-left: 460px;
+}
+.regFormM{
+    margin-left: 15px;
+}
+.nAndS{
+    display: flex;
+}
+.inputAndText{
+    margin-top: 25px;
+    font-size: 1.2rem;
+}
+.inputAndText2{
+    margin-top: 25px;
+    font-size: 1.2rem;
+    margin-left: 15px;
+}
+.cBx{
+    margin-left: 15px;
+}
+.submitDiv{
+    margin-top: 25px;
+    font-size: 1.2rem;
+    justify-content: space-between;
+    display: flex;
+}
+.aSU{
+    display: flex;
+}

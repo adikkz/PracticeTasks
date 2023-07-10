@@ -1,0 +1,44 @@
+.body1{
+    background-color: rgb(101, 135, 189); 
+}
+.lf{
+    font-size: 2.5rem;
+    justify-content: center;
+    display: flex;
+
+}
+.logForm{
+    background-color: white;
+    margin-top: 10px;
+    width: 600px;
+    height: 340px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-left: 460px;
+    margin-top: 200px;
+}
+.logFormM{
+    margin-left: 15px;
+}
+.inputAndText{
+    margin-top: 25px;
+    font-size: 1.2rem;
+}
+.inpText{
+    font-size: 1.2rem;
+}
+.sbt{
+    margin-top: 25px;
+}
+.ipt{
+    width: 565px;
+}
+.submitDiv{
+    margin-top: 25px;
+    font-size: 1.2rem;
+    justify-content: space-between;
+    display: flex;
+}
+.aSU{
+    display: flex;
+}

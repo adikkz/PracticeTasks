@@ -1,0 +1,141 @@
+.main{
+    font-family: arial, sans-serif;
+}
+.logo{ 
+    display: flex;
+}
+.logo1{
+    width: 57px; height: 37px;
+}
+.spL{
+    font-size: 37px;
+    color: #424242;
+    font-weight: bold;
+    margin: 0;
+    margin-left: 10px;
+}
+.nC{
+    justify-content: center;
+    display: flex;
+
+}
+.navB{
+    font-size: 15px;
+    color: #424242;
+    font-weight: bold;
+    justify-content: space-around;
+    width: 890px;
+    display: flex;
+}
+.item1{ 
+    grid-area: header; 
+    padding-left: 18px;
+}
+.item2{ 
+    grid-area: menu; 
+}
+.grid-container{
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+    'header header header header header header'
+    'menu menu menu menu menu menu';
+    padding: 10px;
+}
+.picC{
+    justify-content: center;
+    display: flex;
+}
+.wPd{
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    top: 320px;
+}
+.mainPic{
+    width: 100%;
+
+}
+.wP{
+    font-size: 48px;
+    color: #fff;
+    font-weight: bold;
+}
+.wPp{
+    font-size: 30px; 
+    color: #fff; 
+    font-weight: bold;
+    line-height: 30px;
+}
+.bn{
+    background-color: #f8cd53;
+    font-size: 23px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+}
+.about{
+    text-align: center;
+    margin-top: 60px;
+}
+.aS{
+    font-size: 36px;
+    color: #424242;
+    font-weight: bold;
+}
+.wA{
+    font-size: 20px;
+    color: #424242;
+    font-weight: bold;
+}
+.kAbC{
+    justify-content: center;
+    display: flex;
+}
+.kAb{
+    justify-content: space-around;
+    display: flex;
+}
+.qwe{
+}
+.kAbQ{
+    justify-content: center;
+    display: flex;
+}
+.qeq{
+    text-align: center;
+}
+.fM{
+    font-size: 22px;
+    color: #424242;
+    font-weight: bold;
+    text-align: center;
+    line-height: 0px;
+}
+.fMq{
+    font-size: 13px;
+    color: 5c5c5c;
+    font-weight: normal;
+    width: 220px;
+}
+.footer{
+    font-size: 14px;
+    color: #cecece;
+    background-color: #515151;
+    height: 70px;
+    justify-content: end;
+    display: flex;
+}
+.qqq{
+    text-align: center;
+    padding-right: 200px;
+    padding-top: 10px;
+}

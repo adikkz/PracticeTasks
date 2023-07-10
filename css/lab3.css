@@ -1,0 +1,23 @@
+.buttonLine{
+    margin-top: 15px;
+    margin-left: 125px;
+}
+.buttonLine a{
+    margin-left: 65px;
+}
+.Hr1{
+    border: 1px solid black; 
+    background-color: black; 
+    width: 1530px; 
+    margin-left: -210px; 
+    margin-top: 15px;
+}
+.images img{
+    margin-top: 25px;
+    width: 200px;
+    height: 200px;
+    padding: 0;
+}
+.tables{
+    margin-top: 25px;
+}
