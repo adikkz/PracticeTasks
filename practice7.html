@@ -1,0 +1,58 @@
+<html>
+<head>
+    <link rel="stylesheet" href="css\lab7.css">
+</head>
+<body>
+    <input type="text" autocomplete autofocus name="1" value="First">
+    <br>
+    <br>
+    <input type="text" name="2" value="Second 1">
+    <input type="text" name="3" readonly value="Second 2">
+    <input type="text" name="4" disabled>
+    <br>
+    <br>
+    <input type="text" maxlength="5" name="5" value="Third">
+    <br>
+    <br>
+    <input type="date" min="1980-12-31" max="2022-11-29" name="6" value="Fifth">
+    <br>
+    <br>
+    <input type="radio" name="7" value="Sixth 1">
+    <input type="radio" name="7" value="Sixth 2">
+    <input type="radio" name="7" value="Sixth 3">
+    <br>
+    <input type="checkbox" name="8" value="Sixth 11">
+    <input type="checkbox" name="9" value="Sixth 12">
+    <input type="checkbox" name="10" value="Sixth 13">
+    <br>
+    <input type="file" name="11">
+    <br>
+    <select>
+        <option value="12">First</option>
+        <option value="13">Second</option>
+        <option value="14">Third</option>
+    </select>
+    <br>
+    <br>
+    <input type="submit" value="Submit" id="qwe">
+    <div  class="frst">
+        <input id="s" type="text" maxlength="5">
+        <input type="button" onclick="frst(this)">
+    </div>
+    <script>
+        function frst(th){
+    var r = document.getElementById('s')
+    var frst = "";
+    for(var i = 0;i<r.value.length;i++){
+        if (r.value[i]=='0' ||  r.value[i]=='1' ||  r.value[i]=='2' ||  r.value[i]=='3' ||  r.value[i]=='4' || r.value[i]=='5'||
+             r.value[i]=='6' ||  r.value[i]=='7' ||  r.value[i]=='8' ||  r.value[i]=='9'){
+            frst+=(r.value[i]+"")
+        }else{
+            continue;
+        }
+    }
+    alert(frst);
+}
+    </script>
+</body>
+</html>

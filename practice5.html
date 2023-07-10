@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css\lab5.css">
+    </head>
+    <body>
+      <div>
+      <p id="web">First</p>
+      <button onclick="func()">Click</button>
+      <script>
+        function func(){
+          let q = document.getElementById("web");
+          q.innerHTML = "qwerty";
+        }
+      </script>
+      </div>
+
+      <img id="hvr1" src="https://akorda.kz/assets/media/flag_mediumThumb.jpg" alt="1" class="flags" onmouseover="flagsIMG()">
+      <img id="hvr2" src="https://akorda.kz/assets/media/flag_mediumThumb.jpg" alt="2" class="flags" onmouseover="flagsIMG()">
+      <img id="hvr3" src="https://akorda.kz/assets/media/flag_mediumThumb.jpg" alt="3" class="flags" onmouseover="flagsIMG()">
+      <img id="hvr4" src="https://akorda.kz/assets/media/flag_mediumThumb.jpg" alt="4" class="flags" onmouseover="flagsIMG()">
+      <img id="hvr5" src="https://akorda.kz/assets/media/flag_mediumThumb.jpg" alt="5" class="flags" onmouseover="flagsIMG()">
+      <script>
+        function flagsIMG(){
+          document.getElementById("hvr1").src="https://cdn.britannica.com/52/7252-050-FE079526/Kazakhstan-map-features-locator.jpg";
+          document.getElementById("hvr2").src="https://cdn.britannica.com/52/7252-050-FE079526/Kazakhstan-map-features-locator.jpg";
+          document.getElementById("hvr3").src="https://cdn.britannica.com/52/7252-050-FE079526/Kazakhstan-map-features-locator.jpg";
+          document.getElementById("hvr4").src="https://cdn.britannica.com/52/7252-050-FE079526/Kazakhstan-map-features-locator.jpg";
+          document.getElementById("hvr5").src="https://cdn.britannica.com/52/7252-050-FE079526/Kazakhstan-map-features-locator.jpg";
+        }
+      </script>
+
+      <h1 id="text1" onmouseout="textInc()">Text1</h1>
+      <h2 id="text2" onmouseout="textInc()">Text2</h2>
+      <script>
+        function textInc(){
+          document.getElementById("text1").style.fontSize += "20px";
+          document.getElementById("text2").style.fontSize = "20px";
+        }
+      </script>
+
+      <div>
+      <div class="div1" id="clr"></div>
+      <button onclick="clrChange()">Click</button>
+      <script>
+        function clrChange(){
+          document.getElementById("clr").style.backgroundColor = "red";
+        }
+      </script>
+      </div>
+
+      <img src="https://www.globalspill.com.au/wp-content/uploads/2018/02/RS-W11BR.jpg" alt="1" id="imgs" class="flags">
+      <button onclick="imgChangeLeft()">left</button>
+      <button onclick="imgChangeRight()">right</button>
+      <script>
+        function imgChangeLeft(){
+          imgs.src = "https://media.istockphoto.com/id/1179858968/vector/turn-left-traffic-sign-vector-illustration-traffic-road-sign.jpg?s=612x612&w=0&k=20&c=F-LWEJlLwdG6R3hkgLkh5PGHMrdrkkrOR5S0Ibel4nk="
+        }
+      </script>
+      <script>
+        function imgChangeRight(){
+          imgs.src = "https://www.globalspill.com.au/wp-content/uploads/2018/02/RS-W11BR.jpg";
+        }
+      </script>
+    </body>
+</html>
